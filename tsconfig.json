@@ -1,0 +1,15 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "outDir": "./build",
+    },
+    "include" : [
+        "./src/**/*",
+        "./lib/**/*"
+    ],
+    "exclude" : [
+        "node_modules",
+        "build",
+        "./test/**/*"
+    ]
+}

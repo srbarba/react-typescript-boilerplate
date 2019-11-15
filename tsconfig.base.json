@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "lib": ["es5", "es6", "dom"],
+        "moduleResolution": "node",
+        "jsx": "react",
+        "baseUrl": "./",
+        "paths": {
+            "lib/*": ["./lib/*"],
+            "app/*": ["./src/app/*"],
+            "pages/*": ["./src/app/pages/*"],
+            "components/*": ["./src/app/components/*"]
+        },
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "skipLibCheck" : true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "declaration": true,
+        "forceConsistentCasingInFileNames": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noImplicitAny": true
+    },
+    "plugins": [
+        {
+            "name": "typescript-tslint-plugin"
+        }
+    ]
+}
